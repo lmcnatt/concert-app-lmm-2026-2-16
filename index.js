@@ -13,7 +13,7 @@ const knex = require("knex")({
  },
 });
 
-// connect
+// connect up
 app.get("/",(req,res) => {
  knex
  .select()
